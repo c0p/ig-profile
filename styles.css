@@ -1,0 +1,78 @@
+body {
+    color:black;
+    background-color:#F8F8CC;
+}
+
+#container {
+    width: 1080px;
+    background-color: white;
+    border: 3px solid #DDDDDD;
+    text-align:center;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:55px;
+
+}
+
+#top-bar {
+    height:145px;
+    background-image: url('../ig-profile/images/Top-Bar.png');
+    background-repeat: no-repeat; /* disabling repeats */
+}
+
+#username {
+    margin-top:0px;
+    padding-top:50px;
+    
+}
+
+#follower-count {
+    height:355px;
+    background-image: url('../ig-profile/images/Follower-Count.png');
+}
+
+#profile-picture {
+    border-radius:50%;
+    height:256px;
+    width:256px;
+    margin-top:53px;
+    margin-left:-709px
+
+}
+
+
+#photo-bar {
+    height:180px;
+    background-image : url('../ig-profile/images/Photo-Bar.png');
+}
+
+.ig-image {
+    display: inline-block;
+    width: 32%;
+    height: 300px;
+}
+
+#posts {
+    position: relative;
+    top : -230px;
+    right : 55px;
+}
+
+#followers {
+    position: relative;
+    top:-278px;
+    left : 160px;
+
+}
+
+#following {
+    position: relative;
+    bottom : 328px;
+    left: 380px;
+}
+
+.ig-image:hover {
+    width:360px;
+    height:320px;
+    border: 5px solid #2e5fad;
+}
